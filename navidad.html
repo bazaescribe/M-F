@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navidad Muy Floral</title>
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/muyFloral.css" />
+	<link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css" />
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    
+    <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+    
+    	<link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen" />
+    	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen" />
+    
+        <link rel="stylesheet" href="css/skins/muyfloral.css" data-name="skins">
+        <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen" />
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="FeedEk.js"></script>
+        <link href="css/FeedEk.css" rel="stylesheet" type="text/css" />
+        
+        
+</head>
+
+
+<body style="background:#fff;">
+
+<table width="100%" height="20px" style="background-color: #CA4D99; font-size: 15px; color: white; padding-top: 8px; padding-bottom: 8px;" border="0">
+	<tr>
+		<td style="padding-top: 9px;">
+			<p align="center">
+				contacto@muyfloral.com | Tel: 4996 6454 | Lunes a viernes de 9:00 a 17:00, Sábados de 9:00 a 14:00
+			</p>
+		</td>
+	</tr>
+</table>
+
+<table width="100%" height="100%" style="background-color: #white; font-size: 30px; color: white;" border="0">
+	<tr>
+		<td colspan="4">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="10%">&nbsp;</td>
+		<td width="">
+			<img src="images/logomicro.png" style="width: 20%;" alt="">
+		</td>
+		<td width="20%">&nbsp;</td>
+		<td> 
+			&nbsp;		
+		</td>
+		<td width="10%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="4">&nbsp;</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td width="10%">&nbsp;</td>
+		<td style="text-align: center;"> 
+			<img src="images/navidad2.png" style="width: 80%;" alt="" />		
+		</td>
+		<td width="10%">&nbsp;</td>
+	</tr>
+</table>
+<br/><br/>
+<p align="center">
+	<img src="images/scroll.gif" alt="" />
+</p>
+
+<br/><br/>
+
+<table width="100%" height="50px" style="background-color: #eee; font-size: 30px; color: #7C499A;" border="0">
+	<tr>
+		<td width="15%">&nbsp;</td>
+		<td> 
+			<div class="hola"><a href="index.html">VOLVER A INICIO</a></div>
+		</td>
+		<td>
+			<div class="purple"><a href="arreglos.html">VER OTROS ARREGLOS</a></div>
+		</td>
+		<td width="15%">&nbsp;</td>
+	</tr>
+</table>
+
+<h1 style="margin:150px auto 50px auto">Esta Navidad, decora tu espacio con Muy Floral.</h1>
+
+<div id="elastic_grid_demo"></div>
+
+<table>
+	<tr>
+		<td width="24%">&nbsp;</td>
+		<td>
+			<h1 style="font-size: 40px;">Contáctanos.</h1>
+			<h1 style="font-size: 40px;">Teléfono: 4996 6454.</h1>
+			<h1 style="font-size: 40px;">Contacto@Muyfloral.Com</h1>
+		</td>
+	</tr>
+</table>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/classie.js"></script>
+<script type="text/javascript" src="js/elastic_grid.encode.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#elastic_grid_demo").elastic_grid({
+            'filterEffect': 'popup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
+            'hoverDirection': true,
+            'hoverDelay': 0,
+            'hoverInverse': false,
+            'expandingSpeed': 500,
+            'expandingHeight': 500,
+            'items' :
+            [
+            	{
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-1.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-1.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-2.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-2.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-3.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-3.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-7.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-7.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-5.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-5.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-10.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-10.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-6.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-6.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                
+             
+                
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-4.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-4.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-8.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-8.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                
+                {
+                    'title'         : 'Azuki bean',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-9.jpg', 'images/photos/1.jpg', 'images/small/3.jpg', 'images/small/10.jpg', 'images/small/11.jpg'],
+                    'large'         : ['images/navidad/big/NV-9.jpg', 'images/photos/1.jpg', 'images/large/3.jpg', 'images/large/10.jpg', 'images/large/11.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                
+                {
+                    'title'         : 'Swiss chard pumpkin',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-22.jpg', 'images/small/5.jpg', 'images/small/6.jpg', 'images/small/7.jpg'],
+                    'large'         : ['images/navidad/big/NV-22.jpg', 'images/large/5.jpg', 'images/large/6.jpg', 'images/large/7.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Lo más nuevo']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-23.jpg','images/small/8.jpg', 'images/small/9.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-23.jpg','images/large/8.jpg', 'images/large/9.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos', 'Lo más nuevo']
+                },
+                {
+                    'title'         : 'Aubergine napa cabbage',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-24.jpg', 'images/small/13.jpg', 'images/small/14.jpg', 'images/small/15.jpg', 'images/small/16.jpg'],
+                    'large'         : ['images/navidad/big/NV-24.jpg', 'images/large/13.jpg', 'images/large/14.jpg', 'images/large/15.jpg', 'images/large/16.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Swiss chard pumpkin',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-25.jpg', 'images/small/18.jpg', 'images/small/19.jpg', 'images/small/20.jpg'],
+                    'large'         : ['images/navidad/big/NV-25.jpg', 'images/large/18.jpg', 'images/large/19.jpg', 'images/large/20.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Lo más nuevo']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-26.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-26.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-27.jpg','images/small/8.jpg', 'images/small/9.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-27.jpg','images/large/8.jpg', 'images/large/9.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                /*{
+                    'title'         : 'Azuki bean',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-28.jpg', 'images/small/13.jpg', 'images/small/14.jpg', 'images/small/15.jpg', 'images/small/16.jpg'],
+                    'large'         : ['images/navidad/big/NV-28.jpg', 'images/large/13.jpg', 'images/large/14.jpg', 'images/large/15.jpg', 'images/large/16.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Los clásicos']
+                },*/
+                {
+                    'title'         : 'Swiss chard pumpkin',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-29.jpg', 'images/small/18.jpg', 'images/small/19.jpg', 'images/small/20.jpg'],
+                    'large'         : ['images/navidad/big/NV-29.jpg', 'images/large/18.jpg', 'images/large/19.jpg', 'images/large/20.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Lo más nuevo']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-30.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-30.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-31.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-31.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-32.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-32.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-33.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-33.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-34.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-34.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-35.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-35.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-36.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-36.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-37.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-37.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-38.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-38.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-39.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-39.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-40.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-40.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-41.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-41.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-42)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-42.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-42.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Winter purslane',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-43.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-43.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-44.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-44.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-45.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-45.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-46.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-46.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                },
+                {
+                    'title'         : 'Nombre del Arreglo (NV-XX)',
+                    'description'   : 'Descripción del Arreglo',
+                    'thumbnail'     : ['images/navidad/small/NV-47.jpg','images/small/15.jpg', 'images/small/11.jpg', 'images/small/10.jpg'],
+                    'large'         : ['images/navidad/big/NV-47.jpg','images/large/15.jpg', 'images/large/11.jpg', 'images/large/10.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Demo', 'url' : 'http://www.jqueryscript.net' },
+                        { 'title':'Download', 'url':'http://www.jqueryscript.net'}
+                    ],
+                    'tags'          : ['Nuestros Favoritos']
+                }
+
+            ]
+        });
+    });
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+<footer class="footer grey" style="padding-left: 40px;">
+
+	<p><a href="http://abaxi.mx">Abaxi </a> &copy; 2014. Todos los derechos reservados. </p>
+	
+</footer>
+	
+	
+</html>

@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-nov-2014, 14:58:15
+    Author     : joseluisrosasbaza
+*/
+
+
+.fotos{
+    vertical-align: bottom;
+    position: relative;
+    float: left;
+    border: 0px solid #f00;
+    margin: 5px;
+    height: 210px;
+    width: 160px;
+    text-align: right;
+    color: #888;
+    font-family: sans-serif;
+    font-size: 13px;
+    background: #eee;
+    background-image: url('images/load.gif') no-repeat;
+}
+
+.fotos:hover{
+    opacity: .95;
+    background: #7c499a;
+    color: white;
+}
+
+.fotos span {
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+}
+
+.head2{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 85px;
+    background: white;
+    width: 100%;
+    z-index: 20;
+    border-bottom: solid 1px #bbb;
+    opacity: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.head3{
+    background-color: #7c499a;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 105px;
+    z-index: 19;
+    box-shadow: 1px 0px 10px #333;
+    opacity: .93;
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.content2{
+    padding-top: 165px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 200px;
+    z-index: 2;
+}
+
+.footer2{
+    clear: both;
+    height: 150px;
+    background: white;
+    width: 40%;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.itemSub{
+    float: left;
+    background: none;
+    color: white;
+    width: auto;
+    height: 65%;
+    text-align: center;
+    padding: 5px;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.itemSub:hover{
+    background: white;
+    opacity: .8;
+    color: #7c499a;
+}
+
+.selected2{
+    color: pink;
+}
+
+h1{
+    color: #888;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    color: #999;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+li.classy{
+    height: 54px;
+    padding-left: 44px;
+    padding-top: 3px;
+}
+/*-----------------------------------------------*/
+
+.wraper2{
+    background-color: #eee;
+    position: relative;
+    float: left;
+    width: 18.5%;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.wraper2:hover{
+    opacity: .85;
+}
+
+.wraper2 span{
+    position: absolute;
+    bottom: 10px;
+}
+
+.wraper2 .label{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 35px;
+    box-shadow: 0px -1px 5px #666;
+    font-size: 12px;
+}
+
+.details{
+    position: relative;
+    clear: both;
+    width: 77%;
+    height: 200px;
+    background: #ddd;
+}
+
+.details .icon{
+    opacity: 1;
+    height: 140px;
+    width: 230px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.details .label{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #7c499a;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 230px;
+    height: 80px;
+    text-align: center;
+}
+
+.details .categories{
+    position: absolute;
+    left: 230px;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+.categoriesButton{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 55px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #7c499a;
+    color: white;
+    font-family: sans-serif;
+    vertical-align: middle;
+    margin: 5px;
+    display: inline-block;
+}
+
+.categoriesButton span{
+    display:inline-block; 
+    vertical-align:middle;
+}
+
+.categoriesButton:hover{
+    opacity: .9;
+}
+
+
+a link{
+    text-decoration: none;
+}
+
+img .photo{
+  background: url('images/load.gif') no-repeat;
+}
